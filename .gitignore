@@ -1,0 +1,26 @@
+# Kompilierte Class-Dateien
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Build-Verzeichnisse
+target/
+build/
+bin/
+
+# Log-Dateien
+*.log
