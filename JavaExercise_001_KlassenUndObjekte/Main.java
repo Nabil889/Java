@@ -17,7 +17,7 @@ public class Main{
 
         System.out.println("Mein name ist " + p1.getName() + " ich bin " + p1.getAlter() + 
                             " und meine email adresse ist " + p1.getEmail());
-    */
+    
         Buch Buch1 = new Buch();
         Buch1.setTitle("Java-Lernen");
         Buch1.setAuthor("Max Müller");
@@ -26,6 +26,16 @@ public class Main{
 
         System.out.println("Buchname: " + Buch1.getTitle() + " Author: " + Buch1.getAuthor() + 
                             " Seitenanzahl: " + Buch1.getSeitenanzahl() + " Preis: " + Buch1.getPreis());
+    */
+        Handy handy1 = new Handy();
+        handy1.setMarke("Samsung");
+        handy1.setModell("Galaxy S23");
+        handy1.setSpeicher(256);
+        handy1.setPreis(899.99);
 
+        System.out.println("Marke: " + handy1.getMarke() + 
+                            " Modell: " + handy1.getModell() + 
+                            " Speicher: " + handy1.getSpeicher() + " GB" + 
+                            " Preis: " + handy1.getPreis() + " €");
     }
 }
