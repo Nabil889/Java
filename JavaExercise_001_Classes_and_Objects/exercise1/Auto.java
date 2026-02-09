@@ -1,3 +1,5 @@
+package exercise1;
+
 public class Auto{
     private String marke; 
     private int ps;

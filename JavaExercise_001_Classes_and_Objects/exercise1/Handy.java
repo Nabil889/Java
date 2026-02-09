@@ -1,3 +1,5 @@
+package exercise1;
+
 public class Handy{
     private String marke;
     private String modell;
