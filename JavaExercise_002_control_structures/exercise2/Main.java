@@ -40,9 +40,18 @@ public class Main{
                 break;
             default:
                 System.out.println("Kein Wochentag");
-        }*/
 
+        for(int i=0; i<10; i++){
+            System.out.println(i + 1);
+        }
+    }*/
 
+        int i =5;
 
+        while(i>= 0){
+            System.out.println(i);
+            i--;
+        }
+        System.out.println("Start");
     }
 }
